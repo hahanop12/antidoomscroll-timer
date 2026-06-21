@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\com.antidoomscroll.timer]
+@="C:\\Users\\Konsti\\.gemini\\antigravity\\scratch\\anti-doomscroll-timer\\bridge\\com.antidoomscroll.timer.json"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Edge\NativeMessagingHosts\com.antidoomscroll.timer]
+@="C:\\Users\\Konsti\\.gemini\\antigravity\\scratch\\anti-doomscroll-timer\\bridge\\com.antidoomscroll.timer.json"
+
+[HKEY_CURRENT_USER\Software\BraveSoftware\Brave-Browser\NativeMessagingHosts\com.antidoomscroll.timer]
+@="C:\\Users\\Konsti\\.gemini\\antigravity\\scratch\\anti-doomscroll-timer\\bridge\\com.antidoomscroll.timer.json"

@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Anti-Doomscroll Timer",
+    "version": "1.0",
+    "description": "Monitors YouTube Shorts and Instagram Reels to prevent-doomscrolling.",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "webNavigation",
+        "nativeMessaging"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "*://*.youtube.com/*",
+        "*://*.instagram.com/*"
+    ],
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlOiZDT/keceld9fDJe3BP+5eYSqBfTMIm6JFCGuG65I8U+J9NnfglubZKKbBeYzNASQmC7p5cXZb5Ip/spbLXfyidburkcLN+ouiINzZ/yWtGlBBv+DIrDy1mTx7lCfTOx9ZHRLIAEqn1FvkMac2GjTSYIGOoYTTwyUkPzSk3Ik+jRsJ5QgvybkjuMrM0h7IoA9hZuhuaX1d624nR/VVHBVrTmEsvp3FKxoHDfq7Osxn26GNpinJI0eEqSbsa/ORy/nlVSD2GcnYJdaK9Qrobr1feDZx50fyyNd+A3dAma5JQ+l8OagqG3sovWUUBBKAGA9OVQVaczICIox5era0nQIDAQAB",
+    "icons": {
+        "128": "icon.png"
+    }
+}

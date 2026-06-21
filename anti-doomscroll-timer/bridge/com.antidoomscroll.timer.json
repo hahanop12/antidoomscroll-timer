@@ -1,0 +1,9 @@
+{
+    "name": "com.antidoomscroll.timer",
+    "description": "Anti-Doomscroll and Timer Native Messaging Host",
+    "path": "C:\\Users\\Konsti\\.gemini\\antigravity\\scratch\\anti-doomscroll-timer\\bridge\\host.bat",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://jpnniakjofmmdlbohhemajffkjdbgmif/"
+    ]
+}
